@@ -1,0 +1,17 @@
+
+
+@font-face {
+    font-family: 'overdrive'; /*a custom name identifying your custom font*/
+    src: url('font/OverdriveSunset.otf'); /*file structure to font*/
+}
+
+h1 {
+  position: left;
+  top: 10%;
+  width: 100%;
+  font-size: 90px;
+  letter-spacing: 3px;
+  color:  #ff0000;  /*I chose this color with this font because it seems really outrun*/
+  font-family: overdrive, sans-serif; /*The first font listed is the main font, while the next font listed id the backup font to be used by the system is the forst font is unavailable*/
+  text-align: center; /* cantres the text to the middle of the display*/
+}
